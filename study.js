@@ -332,7 +332,7 @@
   function renderConsent() {
     app.replaceChildren(h('section', { class: 'text-page' },
       h('h1', {}, 'Rating edited driving videos'),
-      h('p', {}, 'Thank you for helping with this research study. You will watch short dashcam videos and rate versions of them that were edited automatically. It takes about 15 minutes.'),
+      h('p', {}, 'Thank you for helping with this research study. You will watch short dashcam videos and rate versions of them that were edited automatically. It takes about 10 minutes.'),
       h('ul', {},
         h('li', {}, 'Participation is voluntary and anonymous. We do not ask for your name or e-mail address.'),
         h('li', {}, 'We store only your ratings, the time spent on each page and your window size.'),
