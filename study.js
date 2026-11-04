@@ -332,7 +332,7 @@
   function renderConsent() {
     app.replaceChildren(h('section', { class: 'text-page' },
       h('h1', {}, 'Rating edited driving videos'),
-      h('p', {}, 'Thank you for helping with this research study. You will watch short dashcam videos and rate versions of them that were edited automatically. It takes about 8 minutes.'),
+      h('p', {}, 'Thank you for helping with this research study. You will watch short dashcam videos and rate versions of them that were edited automatically. It takes about 20 minutes.'),
       h('ul', {},
         h('li', {}, 'Participation is voluntary and anonymous. We do not ask for your name or e-mail address.'),
         h('li', {}, 'We store only your ratings, the time spent on each page and your window size.'),
@@ -354,7 +354,7 @@
       h('p', {}, `You will see ${state.clips.length} scenes. Each scene has two reference videos and several results:`),
       h('ul', {},
         h('li', {}, h('b', {}, 'Original: '), 'the recorded dashcam video.'),
-        h('li', {}, h('b', {}, 'Plan: '), 'the original with a blue box showing where a new car should be added and how it should drive (along the dotted yellow line), and a red star where it should collide with a car that is already in the video (the other car). The plan ends at the collision; what happens next is up to each result.'),
+        h('li', {}, h('b', {}, 'Plan: '), 'the original with a blue box showing where a new car should be added and how it should drive, and a red star where it should collide with a car that is already in the video (the other car). The plan ends at the collision; what happens next is up to each result.'),
         h('li', {}, h('b', {}, 'Results A, B, C, …: '), 'the original edited by different automatic methods, in a random order.')),
       h('figure', { class: 'example' },
         h('img', { src: 'example.jpg', alt: 'Example of an original video and its plan' }),
